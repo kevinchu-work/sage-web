@@ -1,0 +1,16 @@
+.langSelection,
+.langSelection button {
+    background-color: transparent;
+}
+
+.langSelection .dropdown-menu {
+    min-width: 4rem;
+}
+
+.site-mobile-menu-body .langSelection {
+    margin-left: 15px;
+}
+
+.site-mobile-menu-body .langSelection button[id="dropdownMenu2"] {
+    background-color: #eee;
+}
