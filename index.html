@@ -763,7 +763,7 @@
 
 
     <footer class="site-footer" w3-include-html="footer.html"></footer>
-
+    
   </div> <!-- .site-wrap -->
 
   <script src="./js/jquery-3.3.1.min.js"></script>
@@ -781,8 +781,11 @@
   <script src="./js/jquery.sticky.js"></script>
   <script src="https://www.w3schools.com/lib/w3.js"></script>
   <script>
+    w3.includeHTML();
     $(function() {
-      w3.includeHTML();
+      $("#copyrightYear").html(
+        new Date().getFullYear()
+      );
     });
   </script>
   
